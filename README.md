@@ -1,4 +1,4 @@
-# Ember-run-decorators
+# ember-run-decorators
 
 This README outlines the details of collaborating on this Ember addon.
 
