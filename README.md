@@ -85,11 +85,11 @@ export default Component.extend({
   },
 
   didInsertElement() {
-    window.addEventListener('scroll', this.debouncedOnScroll);
+    window.addEventListener('scroll', this.onScroll);
   },
 
   willDestroyElement() {
-    window.removeEventListener('scroll', this.debouncedOnScroll);
+    window.removeEventListener('scroll', this.onScroll);
   }
 });
 ```
