@@ -1,7 +1,7 @@
 {
   "name": "ember-run-decorators",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Decorators for Ember.run.",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,14 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacharygolba/ember-run-decorators.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Zachary Golba <zachary.golba@postlight.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-eslint": "^4.1.8",
