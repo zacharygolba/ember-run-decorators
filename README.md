@@ -1,4 +1,4 @@
-# ember-run-decorators [![Build Status](https://travis-ci.org/zacharygolba/ember-run-decorators.svg?branch=master)](https://travis-ci.org/zacharygolba/ember-run-decorators)
+# ember-run-decorators [![Build Status](https://travis-ci.org/zacharygolba/ember-run-decorators.svg?branch=master)](https://travis-ci.org/zacharygolba/ember-run-decorators) [![Ember Observer Score](http://emberobserver.com/badges/ember-run-decorators.svg)](http://emberobserver.com/addons/ember-run-decorators)
 
 This addon utilizes the [proposed decorator spec](https://github.com/wycats/javascript-decorators)
 to provide commonly used [`Ember.run`](http://emberjs.com/api/classes/Ember.run.html) methods as decorators.
@@ -85,11 +85,11 @@ export default Component.extend({
   },
 
   didInsertElement() {
-    window.addEventListener('scroll', this.onScroll);
+    window.addEventListener('scroll', this.onScroll, false);
   },
 
   willDestroyElement() {
-    window.removeEventListener('scroll', this.onScroll);
+    window.removeEventListener('scroll', this.onScroll, false);
   }
 });
 ```
