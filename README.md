@@ -1,5 +1,7 @@
 # ember-run-decorators [![Build Status](https://travis-ci.org/zacharygolba/ember-run-decorators.svg?branch=master)](https://travis-ci.org/zacharygolba/ember-run-decorators) [![Ember Observer Score](http://emberobserver.com/badges/ember-run-decorators.svg)](http://emberobserver.com/addons/ember-run-decorators)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zacharygolba/ember-run-decorators.svg)](https://greenkeeper.io/)
+
 This addon utilizes the [proposed decorator spec](https://github.com/wycats/javascript-decorators)
 to provide commonly used [`Ember.run`](http://emberjs.com/api/classes/Ember.run.html) methods as decorators.
 
